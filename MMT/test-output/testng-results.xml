@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97571" started-at="2017-01-21T07:43:04Z" finished-at="2017-01-21T07:44:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97571" started-at="2017-01-21T07:43:04Z" finished-at="2017-01-21T07:44:41Z">
+      <class name="com.tests.BookingTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.tests.BookingTest@1829097]" name="launchApp" is-config="true" duration-ms="16651" started-at="2017-01-21T13:13:04Z" finished-at="2017-01-21T13:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="testBooking()[pri:0, instance:com.tests.BookingTest@1829097]" name="testBooking" duration-ms="80881" started-at="2017-01-21T13:13:20Z" finished-at="2017-01-21T13:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBooking -->
+        <test-method status="FAIL" signature="closeApp()[pri:0, instance:com.tests.BookingTest@1829097]" name="closeApp" is-config="true" duration-ms="0" started-at="2017-01-21T13:14:41Z" finished-at="2017-01-21T13:14:41Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Not yet implemented. Please help us: http://appium.io/get-involved.html (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+Build info: version: '2.47.2', revision: '4d972c01cab1304452627f837654326a11eb92fe', time: '2015-09-24 09:17:17'
+System info: host: 'ROHIT-PC', ip: '192.168.2.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: a3a95d89-40bf-44b5-a240-5bfe37883890
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, javascriptEnabled=true, appActivity=com.mmt.travel.app.home.ui.HomeActivity, browserName=Android, networkConnectionEnabled=true, desired={platformVersion=6.0.1, platformName=Android, deviceName=Moto X Play, appActivity=com.mmt.travel.app.home.ui.HomeActivity, appPackage=com.makemytrip}, locationContextEnabled=false, appPackage=com.makemytrip, platformVersion=6.0.1, databaseEnabled=false, platformName=Android, deviceName=ZY22285SBH, webStorageEnabled=false, warnings={}, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Not yet implemented. Please help us: http://appium.io/get-involved.html (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+Build info: version: '2.47.2', revision: '4d972c01cab1304452627f837654326a11eb92fe', time: '2015-09-24 09:17:17'
+System info: host: 'ROHIT-PC', ip: '192.168.2.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: a3a95d89-40bf-44b5-a240-5bfe37883890
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, javascriptEnabled=true, appActivity=com.mmt.travel.app.home.ui.HomeActivity, browserName=Android, networkConnectionEnabled=true, desired={platformVersion=6.0.1, platformName=Android, deviceName=Moto X Play, appActivity=com.mmt.travel.app.home.ui.HomeActivity, appPackage=com.makemytrip}, locationContextEnabled=false, appPackage=com.makemytrip, platformVersion=6.0.1, databaseEnabled=false, platformName=Android, deviceName=ZY22285SBH, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:185)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:459)
+	at com.tests.MasterMMTTest.closeApp(MasterMMTTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1027)
+	at org.testng.TestRunner.run(TestRunner.java:627)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.tests.BookingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
